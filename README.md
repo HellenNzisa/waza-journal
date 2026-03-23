@@ -175,38 +175,6 @@ export const COLORS = {
 
 ---
 
-## 🚧 Roadmap
-
-### In Progress
-- [ ] Complete `SOS.jsx` — mental health contacts page
-- [ ] Complete `Recap.jsx` — daily reflection summary
-
-### Up Next
-- [ ] Connect `GoalSetter` to Home page
-- [ ] Firestore integration — persist journal entries & goals
-- [ ] Journal prompt engine — daily rotating prompts
-- [ ] Deploy to Firebase Hosting
-
-### Future Ideas
-- [ ] Streak tracking & gentle accountability nudges
-- [ ] Mood check-ins with simple emoji scale
-- [ ] End-of-week reflection emails
-- [ ] Offline support via PWA
-
----
-
-## 🐛 Known Issues & Fixes
-
-| Issue | Fix Applied |
-|-------|------------|
-| Git `fatal: detected dubious ownership` | `git config --global --add safe.directory 'C:/Users/.../waza-journal'` |
-| `Cannot resolve import "../styles/colors"` | Created `src/styles/colors.js` with palette export |
-| Firebase config not connected | Created `firebaseConfig.js` and initialised auth export |
-| React routing 404 on refresh | Set up `BrowserRouter` in `App.jsx` correctly |
-| Autofill overrides dark theme styling | `-webkit-box-shadow` inset fix applied in input CSS |
-
----
-
 ## 🤝 Contributing
 
 This is a personal learning project, but feedback and ideas are always welcome.
