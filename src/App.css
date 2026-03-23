@@ -115,6 +115,13 @@
     height: 18px;
   }
 
+  body {
+  font-family: 'Playfair Display', serif;
+  background-color: #f2eee8; /* soft earthy tone */
+  margin: 0;
+  padding: 0;
+}
+
   a {
     color: var(--text-h);
     font-size: 16px;
